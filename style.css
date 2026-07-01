@@ -137,7 +137,7 @@ svg {
   height: 36px;
 }
 .menu-box {
-  width: 92%;
+  width: 63%;
   display: grid;
   grid-template-columns: repeat(4, 36%);
   grid-template-rows: repeat(2, 67px);
