@@ -142,7 +142,7 @@ svg {
   grid-template-rows: repeat(2, 67px);
   justify-content: center;
   align-items: center;
-  gap: 2px 2%;
+  gap: 2px 2px;
 }
 .menu-box > div > p {
   font-size: 89%;
@@ -180,6 +180,7 @@ main > .main-title {
 }
 
 main > .main-title > .box-right {
+  padding-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -191,6 +192,7 @@ main > .main-title > .box-right > h3 {
   margin: 0;
 }
 main > .main-title > .box-left {
+  padding-left: 10px;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -215,7 +217,7 @@ main > .main-text {
   display: grid;
   grid-template-columns: repeat(2, 45%);
   grid-template-rows: repeat(2, 300px);
-  gap: 0% 2%;
+  gap: 2px 2px;
   justify-content: center;
   align-items: center;
 }
@@ -235,7 +237,7 @@ main > .main-text > div > img {
   width: 100%;
 }
 main > .main-text > div > button {
-  width: 70%;
+  width: 80%;
   height: 24px;
   display: flex;
   flex-direction: row;
