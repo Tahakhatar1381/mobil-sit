@@ -63,6 +63,23 @@ header {
 .icon-left {
   justify-content: flex-end;
 }
+.icon-left>svg:nth-child(2){
+  position: relative;
+}
+.badge{
+  position: absolute;
+  border-radius: 50px;
+  background-color: var(--color);
+  color: white;
+  font-size: 12px;
+  left: 26px;
+  top: 17px;
+   width: 10px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    
+}
 .icon-left > svg {
   margin: 0% 9%;
   width: 24px;
@@ -89,8 +106,13 @@ header {
   border: 1px solid rgb(223, 223, 223);
   border-radius: 7px;
 }
+.search-box > svg{
+position: absolute;
+  right:353px;
+}
 input::placeholder {
   padding-right: 2%;
+  position: relative;
 }
 /* header3 */
 .header3 {
