@@ -91,6 +91,7 @@ header {
 }
 /* .serarch-box */
 .search-box {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +310,7 @@ footer {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(2, 47%);
-  grid-template-rows: repeat(2, 60px);
+  grid-template-rows: auto;
   gap: 8px;
   justify-content: center;
   align-items: center;
