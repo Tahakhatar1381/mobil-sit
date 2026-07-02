@@ -39,6 +39,11 @@ header {
   width: 24px;
   height: 24px;
 }
+.icon-right > svg:hover{
+  border-bottom: 2px solid var(--color);
+  border-radius: 7px;
+  cursor: pointer;
+}
 
 .text {
   justify-content: center;
@@ -62,6 +67,11 @@ header {
   margin: 0% 9%;
   width: 24px;
   height: 24px;
+}
+.icon-left > svg:hover{
+  border-bottom: 2px solid var(--color);
+  border-radius: 7px;
+  cursor: pointer;
 }
 /* .serarch-box */
 .search-box {
@@ -188,7 +198,7 @@ main > .main-title > .box-right {
   align-items: center;
   width: 50%;
 }
-main > .main-title > .box-right > h3 {
+main > .main-title > .box-right > h4 {
   padding: 0;
   margin: 0;
 }
@@ -204,6 +214,12 @@ main > .main-title > .box-left > p {
   padding: 0;
   margin: 0;
   color: var(--color);
+}
+main > .main-title > .box-left > p:hover{
+  cursor: pointer;
+}
+main > .main-title > .box-left > svg:hover{
+  cursor: pointer;
 }
 main > .main-title > .box-left > svg {
   width: 21px;
@@ -252,6 +268,7 @@ main > .main-text > div > button {
 main > .main-text > div > button:hover {
   background-color: rgb(255, 177, 255);
   color: black;
+  cursor: pointer;
 }
 main > .main-text > div > button > svg {
   width: 20px;
@@ -263,3 +280,40 @@ main > .main-text > div > p {
 .price {
   color: var(--color);
 }
+/* footer */
+footer {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 47%);
+  grid-template-rows: repeat(2, 60px);
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+footer > div {
+  padding: 12px 3px;
+border: 1px solid rgb(223, 223, 223);
+  border-radius: 7px;  display: flex;
+  flex-direction: row;
+}
+footer > div:hover{
+  background-color: rgb(225, 192, 255);
+  cursor: pointer;
+}
+footer > div > svg {
+  width: 49px;
+  height: 36px;
+  color: var(--color);
+}
+footer > div > p > span {
+  font-weight: bold;
+  padding: 0;
+}
+footer > div > p {
+  padding: 0;
+}
+footer>div>p , span{
+  font-size: 95%;
+}
+
