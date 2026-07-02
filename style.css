@@ -143,7 +143,7 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   margin-left: 2%;
-  width: 30%;
+  width: fit-content;
   border: none;
   border-radius: 7px;
 }
@@ -171,9 +171,9 @@ svg {
   height: 36px;
 }
 .menu-box {
-  width: 63%;
+  width: 92%;
   display: grid;
-  grid-template-columns: repeat(4, 36%);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 67px);
   justify-content: center;
   align-items: center;
@@ -257,9 +257,9 @@ main > .main-text {
   padding: 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, 45%);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 300px);
-  gap: 2px 2px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
 }
@@ -275,7 +275,7 @@ main > .main-text > div {
   border-radius: 7px;
 }
 main > .main-text > div > img {
-  height: 56%;
+  height: auto;
   width: 100%;
 }
 main > .main-text > div > button {
@@ -309,7 +309,7 @@ main > .main-text > div > p {
 footer {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, 47%);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
   gap: 8px;
   justify-content: center;
