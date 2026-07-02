@@ -39,7 +39,7 @@ header {
   width: 24px;
   height: 24px;
 }
-.icon-right > svg:hover{
+.icon-right > svg:hover {
   border-bottom: 2px solid var(--color);
   border-radius: 7px;
   cursor: pointer;
@@ -63,29 +63,28 @@ header {
 .icon-left {
   justify-content: flex-end;
 }
-.icon-left>svg:nth-child(2){
+.icon-left {
   position: relative;
 }
-.badge{
+.badge {
   position: absolute;
   border-radius: 50px;
   background-color: var(--color);
   color: white;
   font-size: 12px;
-  left: 26px;
-  top: 17px;
-   width: 10px;
-    height: 13px;
-    display: flex;
-    justify-content: center;
-    
+  left: 26%;
+  top: 6%;
+  width: 10px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
 }
 .icon-left > svg {
   margin: 0% 9%;
   width: 24px;
   height: 24px;
 }
-.icon-left > svg:hover{
+.icon-left > svg:hover {
   border-bottom: 2px solid var(--color);
   border-radius: 7px;
   cursor: pointer;
@@ -106,9 +105,11 @@ header {
   border: 1px solid rgb(223, 223, 223);
   border-radius: 7px;
 }
-.search-box > svg{
-position: absolute;
-  right:353px;
+.search-box > svg {
+  position: absolute;
+  left: 5%;
+  top: 46%;
+  transform: translateY(-50%);
 }
 input::placeholder {
   padding-right: 2%;
@@ -237,10 +238,10 @@ main > .main-title > .box-left > p {
   margin: 0;
   color: var(--color);
 }
-main > .main-title > .box-left > p:hover{
+main > .main-title > .box-left > p:hover {
   cursor: pointer;
 }
-main > .main-title > .box-left > svg:hover{
+main > .main-title > .box-left > svg:hover {
   cursor: pointer;
 }
 main > .main-title > .box-left > svg {
@@ -249,6 +250,7 @@ main > .main-title > .box-left > svg {
   color: var(--color);
 }
 main > .main-text {
+  box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -315,11 +317,12 @@ footer {
 }
 footer > div {
   padding: 12px 3px;
-border: 1px solid rgb(223, 223, 223);
-  border-radius: 7px;  display: flex;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 7px;
+  display: flex;
   flex-direction: row;
 }
-footer > div:hover{
+footer > div:hover {
   background-color: rgb(225, 192, 255);
   cursor: pointer;
 }
@@ -335,7 +338,6 @@ footer > div > p > span {
 footer > div > p {
   padding: 0;
 }
-footer>div>p , span{
+footer > div > p {
   font-size: 95%;
 }
-
