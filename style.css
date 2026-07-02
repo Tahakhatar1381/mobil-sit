@@ -258,7 +258,7 @@ main > .main-text {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 256px);
   gap: 8px;
   justify-content: center;
   align-items: center;
@@ -317,7 +317,7 @@ footer {
   padding: 5px;
 }
 footer > div {
-  height: 70px;
+  height: 85px;
   padding: 12px 3px;
   border: 1px solid rgb(223, 223, 223);
   border-radius: 7px;
