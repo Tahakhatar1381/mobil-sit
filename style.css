@@ -260,8 +260,8 @@ main > .main-text {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 256px);
-  gap: 17px 10px;
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px 10px;
   justify-content: center;
   align-items: center;
 }
