@@ -72,12 +72,13 @@ header {
   background-color: var(--color);
   color: white;
   font-size: 12px;
-  left: 26%;
-  top: 6%;
+  left: 28px;
+  top: 0px;
   width: 10px;
   height: 13px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .icon-left > svg {
   margin: 0% 9%;
@@ -153,10 +154,10 @@ input::placeholder {
   cursor: pointer;
 }
 .header3 > h2,
-p,
-button,
-svg {
-  padding: 4px;
+.header3 > p,
+.header3 > button,
+.header3 > svg {
+    padding: 4px;
 }
 .header3 > p {
   font-size: 80%;
@@ -174,7 +175,7 @@ svg {
   width: 92%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 67px);
+  grid-template-rows: repeat(2, 68px);
   justify-content: center;
   align-items: center;
   gap: 7px 2px;
@@ -324,6 +325,7 @@ footer > div {
   border-radius: 7px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 footer > div:hover {
   background-color: rgb(225, 192, 255);
@@ -343,4 +345,98 @@ footer > div > p {
 }
 footer > div > p {
   font-size: 95%;
+}
+
+/* ریسپانسیو */
+@media screen and (max-width: 390px) {
+footer{
+  font-size: .9rem;
+}
+}
+
+@media screen and (min-width: 411px) {
+main > .main-title {
+margin: 10px;}
+main{
+ 
+}
+main > .main-title > .box-right {
+justify-content: flex-start;
+}
+
+}
+@media screen and (max-width: 400px) {
+  .menu-box{
+ grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 68px);
+}
+.menu-box > div{
+  height: 90%;
+} 
+main > .main-text {
+   grid-template-columns: repeat(1 , 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+}
+@media screen and (min-width: 450px) {
+  .menu-box > div{
+  height: 90%;
+} 
+main > .main-text {
+   grid-template-columns: repeat(3 , 1fr);
+  grid-template-rows: repeat(2 , auto);
+font-size: .7rem;
+}
+}
+@media screen and (min-width: 500px){
+.header3{
+  height: 250px;
+}
+}
+@media screen and (min-width: 750px){
+main > .main-text {
+font-size: 1.1rem;
+}
+main > .main-text > div > button{
+  font-size: 1.1rem;
+}
+main > .main-title{
+   font-size: 1.1rem;
+}
+}
+@media screen and (min-width: 900px){
+  .header1>.text{
+    font-size: 1.5rem;
+  }
+  .header1>.icon-left>svg{
+    width: 30px;
+    height: 26px;
+  }
+  .header1>.icon-right>svg{
+      width: 30px;
+    height: 26px;
+  }
+  .search-box{
+    height: 45px;
+  }
+.header3{
+  line-height: 44px;
+  font-size: 1.5rem;
+  height: 400px;
+  justify-content: center;
+}
+.header3>button{
+      width: 25%;
+      max-width: 218px;
+    height: 10%;
+    font-size: 1.1rem;
+}
+.header3>button>svg{
+     width: 14%;
+    height: 51%;
+}
+.header3>svg{
+  width: 100px;
+  margin:80px 0px 0px 20px ;
+}
 }
